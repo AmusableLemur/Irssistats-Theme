@@ -1,0 +1,224 @@
+html, body {
+	background-color: #ccc;
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	margin: 0 0 10px;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid #ccc;
+	width: 100%;
+}
+
+td {
+	text-align: left;
+}
+
+th {
+	padding: 3px 0;
+}
+
+div.h1, div.v1 {
+	background-color: blue;
+}
+
+div.h2, div.v2 {
+	background-color: lime;
+}
+
+div.h3, div.v3 {
+	background-color: yellow;
+}
+
+div.h4, div.v4 {
+	background-color: red;
+}
+
+div.hm {
+	background-color: purple;
+}
+
+#irssistats {
+	background-color: white;
+	margin: 0 auto;
+	padding: 10px;
+	width: 900px;
+}
+
+#irssistats_header {
+	background-color: #efefef;
+	margin-bottom: 10px;
+	padding: 30px 0;
+	text-align: center;
+}
+
+#irssistats_legend, #irssistats_lastdays, #irssistats_tophours, #irssistats_topusers, #irssistats_topuserstime,
+#irssistats_randtopics, #irssistats_randurls, #irssistats_topwords, #irssistats_bignumbers {
+	background-color: #efefef;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+#irssistats_legend div {
+	height: 15px;
+	width: 100% !important;
+}
+
+#irssistats_legend td {
+	background-color: white;
+	text-align: center;
+	width: 12.5%;
+}
+
+#irssistats_lastdays div {
+	margin: 0 auto;
+	width: 15px;
+}
+
+#irssistats_lastdays td {
+	background-color: white;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	overflow: hidden;
+	text-align: center;
+	width: 3.23%;
+}
+
+#irssistats_lastdays th, #irssistats_tophours th, #irssistats_topusers th, #irssistats_topuserstime th, #irssistats_randtopics th,
+#irssistats_randurls th, #irssistats_topwords th, #irssistats_bignumbers th {
+	background-color: #ddd;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+
+#irssistats_tophours td {
+	background-color: white;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	overflow: hidden;
+	text-align: center;
+	width: 1.04%;
+}
+
+#irssistats_tophours div {
+	margin: 0 auto;
+	width: 5px;
+}
+
+#irssistats_topusers td, #irssistats_topuserstime td {
+	background-color: white;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	overflow: hidden;
+	padding: 2px;
+	text-align: center;
+	vertical-align: top;
+	width: 10%;
+}
+
+#irssistats_topusers td:first-child {
+	width: 3% !important;
+}
+
+#irssistats_topusers td:first-child + td {
+	text-align: left;
+}
+
+#irssistats_topusers td:first-child + td + td + td {
+	width: 60px !important;
+}
+
+#irssistats_topusers td:last-child {
+	text-align: left;
+	width: 60%;
+}
+
+#irssistats_topusers td.oneline div {
+	height: 5px;
+}
+
+#irssistats_topusers div {
+	float: left;
+	height: 1.2em !important;
+	margin: 2px 0;
+}
+
+#irssistats_topuserstime td:first-child {
+	width: 2%;
+}
+
+#irssistats_randtopics td, #irssistats_randurls td {
+	background-color: white;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	overflow: hidden;
+	padding: 2px;
+	text-align: center;
+	vertical-align: top;
+	width: 85%;
+}
+
+#irssistats_randtopics td:first-child, #irssistats_randurls td:first-child {
+	width: 15%;
+}
+
+#irssistats_topwords td {
+	background-color: white;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	overflow: hidden;
+	padding: 2px;
+	text-align: center;
+	vertical-align: top;
+	width: 47.5%;
+}
+
+#irssistats_topwords td:first-child {
+	width: 5%;
+}
+
+#irssistats_topwords td {
+	background-color: white;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	overflow: hidden;
+	padding: 2px;
+	text-align: center;
+	vertical-align: top;
+	width: 47.5%;
+}
+
+#irssistats_bignumbers td {
+	background-color: white;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	overflow: hidden;
+	padding: 2px;
+	text-align: center;
+	vertical-align: top;
+	width: 80%;
+}
+
+#irssistats_bignumbers td:first-child {
+	width: 15%;
+}
+
+#irssistats_bignumbers td:last-child {
+	width: 5%;
+}
+
+#irssistats_footer {
+	padding: 20px 0;
+	text-align: center;
+}
